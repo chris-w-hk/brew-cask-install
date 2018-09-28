@@ -12,5 +12,6 @@ brew tap caskroom/cask;
 ```
 
 # Upgrade apps
+```
 brew cask upgrade
-
+```
