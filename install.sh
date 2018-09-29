@@ -24,6 +24,7 @@ brew cask install dropbox;
 brew cask install evernote;
 brew cask install teamviewer;
 brew cask install jietu;
+brew cask install sogouinput;
 
 
 # For developer
