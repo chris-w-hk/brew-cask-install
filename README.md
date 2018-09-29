@@ -8,8 +8,8 @@ brew tap caskroom/cask;
 # Install brew apps and cask apps
 
 ```
-cat brew_list | xargs brew install
-cat cask_list | xargs brew cask install
+cat cask_list | xargs brew cask install -f
+cat cask_list | xargs brew cask install -f
 ```
 
 # Upgrade apps
