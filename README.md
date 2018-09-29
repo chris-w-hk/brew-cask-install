@@ -5,17 +5,22 @@
 brew tap caskroom/cask;
 ```
 
-# Install brew apps and cask apps
+# Install apps
 
+## brew apps
+```
+cat brew_list | xargs brew cask install -f
+```
+
+## brew cask apps
 ```
 cat cask_list | xargs brew cask install -f
-cat cask_list | xargs brew cask install -f
 ```
 
-# Upgrade apps
+# Upgrade cask apps
 ```
 brew cask upgrade
 ```
 
-# Updating installation list
+# Update installation list
 Update file `brew_list` and `cask_list` for the app installation list
