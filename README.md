@@ -16,3 +16,6 @@ cat cask_list | xargs brew cask install -f
 ```
 brew cask upgrade
 ```
+
+# Updating installation list
+Update file `brew_list` and `cask_list` for the app installation list
