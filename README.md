@@ -1,26 +1,30 @@
-# Install homebrew-cask
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+# Overview
+Install apps on your Mac using brew.
 
-brew tap caskroom/cask;
+# Setup 
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+brew tap homebrew/cask;
 ```
 
-# Install apps
+# Update list
+Update file `brew_list` and `cask_list` for app installation list
 
-## brew apps
+
+# Install
+
+brew apps
 ```
 cat brew_list | xargs brew cask install --force
 ```
 
-## brew cask apps
+brew cask apps
 ```
 cat cask_list | xargs brew cask install --force
 ```
 
-# Upgrade cask apps
+# Upgrade
 ```
 brew cask upgrade
 ```
 
-# Update installation list
-Update file `brew_list` and `cask_list` for the app installation list
